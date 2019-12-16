@@ -1,5 +1,7 @@
 {
-  "name": "test-locale",
+  "name": "@voquochieu/test-locale",
+  "repository": "https://github.com/voquochieu/test-locale",
+  "publishConfig": { "registry": "https://npm.pkg.github.com/" },
   "version": "1.0.0",
   "description": "TestLocale",
   "main": "./lib/index.js",
@@ -15,12 +17,5 @@
   "devDependencies": {
     "tslint": "5.10.0",
     "typescript": "3.3.3333"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/voquochieu/test-locale.git"
-  },
-  "publishConfig": {
-    "registry": "https://npm.pkg.github.com/@voquochieu"
   }
 }
