@@ -1,0 +1,26 @@
+{
+  "name": "test-locale",
+  "version": "1.0.0",
+  "description": "TestLocale",
+  "main": "./lib/index.js",
+  "types": "./lib/index.d.ts",
+  "scripts": {
+    "build:lib": "tsc",
+    "clean:lib": "rimraf lib",
+    "postinstall": "npm run clean:lib && npm run build:lib"
+  },
+  "dependencies": {
+    "moment": "^2.22.2"
+  },
+  "devDependencies": {
+    "tslint": "5.10.0",
+    "typescript": "3.3.3333"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/voquochieu/test-locale.git"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/@voquochieu"
+  }
+}
