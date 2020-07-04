@@ -1,6 +1,5 @@
 node_modules
 public
-.idea
 es6
 .nyc_output
 coverage
