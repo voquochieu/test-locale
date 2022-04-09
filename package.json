@@ -10,7 +10,7 @@
     "postinstall": "npm run clean:lib && npm run build:lib"
   },
   "dependencies": {
-    "moment": "^2.22.2"
+    "moment": "^2.29.2"
   },
   "devDependencies": {
     "tslint": "5.10.0",
